@@ -44,7 +44,6 @@ print("Mean Root Squared Error is:",
 
 abs(y_test - pred)
 
-# %%
 # visualise the results
 plt.scatter(x_test[['sepal_length']], y_test,  color='red',
             label="Actual petal width")
@@ -52,6 +51,3 @@ plt.scatter(x_test[['sepal_length']], pred, color='green',
             label="Predicted petal width")
 plt.legend()
 plt.xlabel("Sepal Length in cm")
-
-
-# %%
